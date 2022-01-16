@@ -29,6 +29,9 @@ module.exports = async (client) => {
             .setAuthor('Lavalink Node', client.user.displayAvatarURL())
 					  .setURL(`https://discodes.ml/lavalinks`)
             .setDescription(`\`\`\`${all.join('\n\n----------------------------\n')}\n\n` + 
+
+                    `---------------------------- \n` +
+                    `Hosting Server Info -> \n\n` +
                     `Total Memory  :: ${Math.round(require('os').totalmem() / 1024 / 1024)} mb\n` +
                     `Free Memory   :: ${Math.round(require('os').freemem() / 1024 / 1024)} mb\n` +
                     `RSS           :: ${Math.round(process.memoryUsage().rss / 1024 / 1024)} mb\n` +
