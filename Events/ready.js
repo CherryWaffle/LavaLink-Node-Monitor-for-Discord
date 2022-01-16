@@ -15,7 +15,7 @@ module.exports = async (client) => {
             client.manager.nodes.forEach(node => {
               let info = []
               info.push(`Node: ${(node.options.identifier)}`)
-              info.push(`Status: ${node.connected ? "🟢 Online" : "🔴 Offline"}`)
+              info.push(`Status: ${node.connected ? "🟩 Online" : "🟥 Offline"}`)
               info.push(`Player: ${node.stats.players}`)
               info.push(`Playing Players: ${node.stats.playingPlayers}`)
               info.push(`Uptime: ${new Date(node.stats.uptime).toISOString().slice(11, 19)}`)
