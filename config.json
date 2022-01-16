@@ -1,0 +1,46 @@
+{
+  "nodes": [
+  {
+      "host": "node01.lavalink.eu",
+      "password": "Raccoon",
+      "port": 2333,
+      "retryDelay": 3000,
+      "identifier": "France Node",
+      "secure": true
+    },
+    {
+      "host": "node02.lavalink.eu",
+      "password": "raccoon",
+      "port": 2333,
+      "retryDelay": 3000,
+      "identifier": "Germany Node",
+      "secure": true
+    },
+    {
+      "host": "node03.lavalink.eu",
+      "password": "Raccoon",
+      "port": 2333,
+      "retryDelay": 3000,
+      "identifier": "Finland Node",
+      "secure": true
+
+    },
+    {
+      "host": "node04.lavalink.eu",
+      "password": "Raccoon",
+      "port": 2333,
+      "retryDelay": 3000,
+      "identifier": "USA Node",
+      "secure": true
+
+     },
+    {
+      "host": "node05.lavalink.eu",
+      "password": "Raccoon",
+      "port": 2333,
+      "retryDelay": 3000,
+      "identifier": "Germany-2 Node",
+      "secure": true
+    }
+  ]
+}
