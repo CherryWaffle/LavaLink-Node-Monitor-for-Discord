@@ -26,4 +26,6 @@ readdirSync("./Events/").forEach(file => {
     client.on(eventName, event.bind(null, client));
 });
 
+client.once('ready', () => { client.user.setActivity('LavaLink Nodes', { type: "WATCHING" }); });  
+
 client.login(process.env.TOKEN);
