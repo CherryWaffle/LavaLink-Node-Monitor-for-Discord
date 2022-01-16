@@ -22,7 +22,7 @@ client.manager = new Manager({
 readdirSync("./Events/").forEach(file => {
     const event = require(`./Events/${file}`);
     let eventName = file.split(".")[0];
-    console.log(`Loading Events Client ${eventName}`, "event");
+    console.log(`File "${eventName}.js"`, "has loaded successfully!");
     client.on(eventName, event.bind(null, client));
 });
 
