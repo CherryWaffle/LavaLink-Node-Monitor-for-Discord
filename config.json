@@ -1,46 +1,55 @@
 {
   "nodes": [
   {
-      "host": "node01.lavalink.eu",
-      "password": "Raccoon",
-      "port": 2333,
+      "host": "disbotlistlavalink.ml",
+      "password": "LAVA",
+      "port": 443,
       "retryDelay": 3000,
-      "identifier": "France Node",
+      "identifier": "lavalink 1",
       "secure": true
     },
     {
-      "host": "node02.lavalink.eu",
-      "password": "raccoon",
-      "port": 2333,
+      "host": "giveawaybot.cf",
+      "password": "Blacky#6618",
+      "port": 443,
       "retryDelay": 3000,
-      "identifier": "Germany Node",
+      "identifier": "lavalink 2",
       "secure": true
     },
     {
-      "host": "node03.lavalink.eu",
-      "password": "Raccoon",
-      "port": 2333,
+      "host": "lavalink.gangasagarcom.repl.co",
+      "password": "LAVA",
+      "port": 443,
       "retryDelay": 3000,
-      "identifier": "Finland Node",
+      "identifier": "lavalink 3",
       "secure": true
 
     },
     {
-      "host": "node04.lavalink.eu",
-      "password": "Raccoon",
-      "port": 2333,
+      "host": "lavalink-2.gangasagarcom.repl.co",
+      "password": "LAVA",
+      "port": 443,
       "retryDelay": 3000,
-      "identifier": "USA Node",
+      "identifier": "lavalink 4",
       "secure": true
 
      },
     {
-      "host": "node05.lavalink.eu",
-      "password": "Raccoon",
-      "port": 2333,
+      "host": "lavalink.brblacky1.repl.co",
+      "password": "LAVA",
+      "port": 443,
       "retryDelay": 3000,
-      "identifier": "Germany-2 Node",
+      "identifier": "lavalink 5",
+      "secure": true
+    },
+    {
+      "host": "lavalink.devz.cloud",
+      "password": "mathiscool",
+      "port": 443,
+      "retryDelay": 3000,
+      "identifier": "lavalink 6",
       "secure": true
     }
+
   ]
 }
