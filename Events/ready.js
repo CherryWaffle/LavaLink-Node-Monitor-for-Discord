@@ -54,6 +54,7 @@ module.exports = async (client) => {
         }, 2000);})
   
     client.manager.init(client.user.id);
+    client.user.setPresence({ activities: [{ name: 'with discord.js' }], status: 'idle' });
     console.log(`${client.user.username} online!`);
     
 } 
