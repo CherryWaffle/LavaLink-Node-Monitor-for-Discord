@@ -32,18 +32,18 @@ module.exports = async (client) => {
 
                     `---------------------------- \n` +
                     `Hosting Server Info -> \n\n` +
+                    `💻 Platform      :: ${process.platform}\n` +
+                    `🔧 CPU Model     :: ${require('os').cpus()[0].model}\n` +
+                    `🔃 Cores         :: ${require('os').cpus().length}\n` +
                     `📁 Total Memory  :: ${Math.round(require('os').totalmem() / 1024 / 1024)} mb\n` +
                     `📁 Free Memory   :: ${Math.round(require('os').freemem() / 1024 / 1024)} mb\n` +
-                    `📁 RSS           :: ${Math.round(process.memoryUsage().rss / 1024 / 1024)} mb\n` +
+                    `🥏 Speed         :: ${require('os').cpus()[0].speed}Mhz\n` +
                     `📨 Heap Total    :: ${Math.round(process.memoryUsage().heapTotal / 1024 / 1024)} mb\n` +
                     `📨 Heap Used     :: ${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)} mb\n` +
                     `📋 External      :: ${Math.round(process.memoryUsage().external / 1024 / 1024)} mb\n` +
                     `📺 Array Buffer  :: ${Math.round(process.memoryUsage().rss / 1024 / 1024)} mb\n` +
-                    `🔧 CPU Model     :: ${require('os').cpus()[0].model}\n` +
-                    `🔃 Cores         :: ${require('os').cpus().length}\n` +
-                    `🥏 Speed         :: ${require('os').cpus()[0].speed}Mhz\n` +
-                    `💻 Platform      :: ${process.platform}\n` +
                     `💻 PID           :: ${process.pid}\n` +
+                    `🎯 RSS           :: ${Math.round(process.memoryUsage().rss / 1024 / 1024)} mb\n` +
                     `\n` + `\`\`\``)
 					.addField("LavaLink Server" , `Click [here](https://github.com/freyacodes/Lavalink) for LavaLink's Source Code`)
                     .addField("LavaLink Monitor" , `Click [here](https://github.com/CherryWaffle/LavaLink-Node-Monitor-for-Discord) for LavaLink Monitor's Source Code`)
