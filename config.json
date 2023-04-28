@@ -43,8 +43,8 @@
       "secure": true
     },
     {
-      "host": "lavalink.devz.cloud",
-      "password": "mathiscool",
+      "host": "lava.link",
+      "password": "xyz",
       "port": 443,
       "retryDelay": 3000,
       "identifier": "lavalink 6",
